@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	br = branch
+	st = status
+[user]
+	email = ball.brendan50@gmail.com
+	name = Brendan Ball
+[push]
+	default = simple
