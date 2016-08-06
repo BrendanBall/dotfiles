@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    i3lock -t -u win -i ~/Pictures/bsod.png
+    i3lock -t
 }
 
 case "$1" in
