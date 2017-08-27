@@ -1,0 +1,14 @@
+# python virtual envs
+export WORKON_HOME=~/dev/arch-venvs
+source /usr/bin/virtualenvwrapper_lazy.sh
+
+export VISUAL=/usr/bin/nvim
+export EDITOR=/usr/bin/nvim
+
+# aliases
+alias k=kubectl
+alias mk=minikube
+alias vim=nvim
+
+# PATH
+PATH=$PATH:$HOME/.local/bin
