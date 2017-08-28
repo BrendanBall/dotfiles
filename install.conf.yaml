@@ -13,3 +13,5 @@
     ~/.config/Code/User/keybindings.json: vscode/keybindings.json
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.local/bin/i3exit: i3/i3exit
+    ~/.k8s_functions.sh: k8s/functions.sh
+    

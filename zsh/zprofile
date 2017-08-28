@@ -5,6 +5,8 @@ source /usr/bin/virtualenvwrapper_lazy.sh
 export VISUAL=/usr/bin/nvim
 export EDITOR=/usr/bin/nvim
 
+source $HOME/.k8s_functions.sh
+
 # aliases
 alias k=kubectl
 alias mk=minikube
