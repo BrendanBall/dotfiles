@@ -9,7 +9,7 @@ function mkenv() {
 }
 
 function dev() {
-    kubectl config use-context gke_nomanini-dashboard-dev_us-central1-a_dev
+    kubectl config use-context gke_nomanini-dashboard_us-central1-a_dev
 }
 
 function prod() {
