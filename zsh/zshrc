@@ -1,5 +1,17 @@
-source $HOME/antigen.zsh
-antigen init $HOME/.antigenrc
+ZSH=/usr/share/oh-my-zsh/
+ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
+ZSH_THEME="robbyrussell"
+COMPLETION_WAITING_DOTS="true"
 
-source ~/.kubectlcompletion.sh
+plugins=(git mercurial virtualenvwrapper kubectl)
+
+ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+if [[ ! -d $ZSH_CACHE_DIR ]]; then
+  mkdir $ZSH_CACHE_DIR
+fi
+
+zstyle ':completion:*' rehash true
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH/oh-my-zsh.sh
 source ~/.zprofile

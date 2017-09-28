@@ -6,8 +6,9 @@
 - clean: ['~']
 
 - link:
+    ~/.oh-my-zsh/custom/themes/brendan.zsh-theme: zsh/brendan.zsh-theme
+    ~/.oh-my-zsh/custom/themes/robbyrussell.zsh-theme: zsh/robbyrussell.zsh-theme
     ~/.zshrc: zsh/zshrc
-    ~/.antigenrc: zsh/antigenrc
     ~/.zprofile: zsh/zprofile
     ~/.config/i3/config: i3/config
     ~/.gitconfig: git/gitconfig
