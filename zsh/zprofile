@@ -4,6 +4,7 @@ source /usr/bin/virtualenvwrapper_lazy.sh
 
 export VISUAL=/usr/bin/nvim
 export EDITOR=/usr/bin/nvim
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 
 source $HOME/.k8s_functions.sh
 
@@ -11,6 +12,8 @@ source $HOME/.k8s_functions.sh
 alias k=kubectl
 alias mk=minikube
 alias vim=nvim
+alias moza=$HOME/go/src/bitbucket.org/nomanini/mz-moza
 
 # PATH
 PATH=$PATH:$HOME/.local/bin
+PATH=$PATH:$HOME/go/bin

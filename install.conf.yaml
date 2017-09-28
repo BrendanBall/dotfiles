@@ -7,6 +7,7 @@
 
 - link:
     ~/.zshrc: zsh/zshrc
+    ~/.antigenrc: zsh/antigenrc
     ~/.zprofile: zsh/zprofile
     ~/.config/i3/config: i3/config
     ~/.gitconfig: git/gitconfig
