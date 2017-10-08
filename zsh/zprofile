@@ -11,6 +11,7 @@ source $HOME/.k8s_functions.sh
 # aliases
 alias k=kubectl
 alias mk=minikube
+alias dc=docker-compose
 alias vim=nvim
 alias moza=$HOME/go/src/bitbucket.org/nomanini/mz-moza
 

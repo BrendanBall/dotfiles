@@ -29,3 +29,18 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 call plug#end()
 
 set mouse=a
+
+let g:python3_host_prog="/home/brendan/dev/arch-venvs/neovim/bin/python3"
+
+" Language Server settings
+set hidden
+
+let g:LanguageClient_serverCommands = {
+    \ 'rust': ['rustup', 'run', 'nightly', 'rls'],
+    \ 'go': ['go-langserver']
+    \ }
+
+" Automatically start language servers.
+let g:LanguageClient_autoStart = 1
+
+" End Language Server settings
