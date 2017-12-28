@@ -4,7 +4,7 @@
 	st = status
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [user]
-	email = brendan@nomanini.com
+	email = ball.brendan50@gmail.com
 	name = Brendan Ball
 [push]
 	default = simple
