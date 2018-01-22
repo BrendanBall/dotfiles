@@ -192,3 +192,5 @@ bindsym $mod+x mode "$mode_display"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id /usr/bin/indicator-kdeconnect
