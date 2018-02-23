@@ -15,5 +15,9 @@
     {
         "key": "ctrl+alt+-",
         "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase"
     }
 ]
