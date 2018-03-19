@@ -76,7 +76,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+# bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -186,6 +186,16 @@ mode "$mode_display" {
 }
 # Declare here the shortcut to bring the display selection menu
 bindsym $mod+x mode "$mode_display"
+
+set $mode_sound Control Sound (m) Mute/Unmute
+mode "$mode_sound" {
+    bindsym m exec --no-startup-id pactl set-sink-mute 1 toggle, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+s mode "$mode_sound"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
