@@ -4,6 +4,10 @@ function kpatch() {
     kubectl patch deployment $1 -p "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"
 }
 
+function klog() {
+    kubectl logs -f --tail=200 $(kubectl get pods -l app=$1 -o jsonpath='{.items[0].metadata.name}') $1
+}
+
 function mkenv() {
     kubectl config use-context minikube
 }
