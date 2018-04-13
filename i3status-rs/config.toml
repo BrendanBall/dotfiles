@@ -1,0 +1,50 @@
+theme = "solarized-dark"
+icons = "awesome"
+
+[[block]]
+block = "custom"
+command = "current_env"
+interval = 1
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mug}GiB/{Mup}%"
+format_swap = "{SUg}GiB/{SUp}%"
+icons = true
+clickable = true
+warning_mem = 80
+warning_swap = 80
+critical_mem = 95
+critical_swap = 95
+
+[[block]]
+block = "net"
+device = "wlp8s0"
+ssid = true
+ip = true
+speed_up = false
+speed_down = false
+graph_down = false
+bitrate = true
+interval = 5
+
+[[block]]
+block = "cpu"
+interval = 1
+
+[[block]]
+block = "load"
+interval = 1
+format = "{1m}"
+
+[[block]]
+block = "battery"
+interval = 10
+device = "BAT1"
+show = "percentage"
+
+[[block]]
+block = "time"
+interval = 5
+format = "%a %d/%m %r"
