@@ -11,6 +11,7 @@
     ~/.zshrc: zsh/zshrc
     ~/.zprofile: zsh/zprofile
     ~/.config/i3/config: i3/config
+    ~/.config/i3status-rs/config.toml: i3status-rs/config.toml
     ~/.gitconfig: git/gitconfig
     ~/.config/Code/User/keybindings.json: vscode/keybindings.json
     ~/.config/nvim/init.vim: nvim/init.vim

@@ -19,3 +19,7 @@ PATH=$PATH:$HOME/.yarn/bin
 PATH=$HOME/.cargo/bin:$PATH
 PATH=$PATH:/opt/android-sdk/tools/bin
 PATH=$PATH:/opt/android-sdk/platform-tools
+
+export WORKON_HOME=~/development/python-venvs
+source /usr/bin/virtualenvwrapper.sh
+
