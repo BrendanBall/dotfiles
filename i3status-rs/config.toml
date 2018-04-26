@@ -39,6 +39,11 @@ interval = 1
 format = "{1m}"
 
 [[block]]
+block = "sound"
+step_width = 3
+
+[[block]]
 block = "time"
-interval = 5
+interval = 2
+on_click = "gsimplecal"
 format = "%a %d/%m %r"

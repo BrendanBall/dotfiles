@@ -1,0 +1,4 @@
+mainwindow_xoffset = 770
+mainwindow_yoffset = 443
+mainwindow_position = center
+close_on_unfocus = 0
