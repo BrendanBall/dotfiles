@@ -58,3 +58,4 @@ show = "percentage"
 block = "time"
 interval = 5
 format = "%a %d/%m %r"
+on_click = "gsimplecal"

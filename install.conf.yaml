@@ -18,4 +18,6 @@
     ~/.local/bin/i3exit: i3/i3exit
     ~/.local/bin/current_env: k8s/current_env.sh
     ~/.k8s_functions.sh: k8s/functions.sh
+    ~/.config/gsimplecal/config: calendar
+    ~/.config/dunst/dunstrc: dunstrc
     
