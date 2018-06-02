@@ -20,5 +20,9 @@
         "key": "ctrl+h",
         "command": "workbench.action.tasks.runTask",
         "args": "cargo run"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase"
     }
 ]

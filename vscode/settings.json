@@ -1,0 +1,36 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.menuBarVisibility": "toggle",
+    "files.exclude": {
+        "./vendor": true
+    },
+    "files.watcherExclude": {
+        "./vendor": true
+    },
+    "[apiblueprint]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "go.addTags": {
+        "tags": "json",
+        "options": "",
+        "promptForTags": false,
+        "transform": "snakecase"
+      },
+    "eslint.autoFixOnSave": true,
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "[graphql]": {},
+    "extensions.ignoreRecommendations": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+}
