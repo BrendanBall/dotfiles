@@ -9,12 +9,20 @@ name = "awesome"
 
 [[block]]
 block = "plugin"
-command = "cloudsql_status"
-interval = 5
+command = "cloudsql_status_dev"
+on_click = "cloudsql_toggle dev"
+interval = 2
+
+[[block]]
+block = "plugin"
+command = "cloudsql_status_prod"
+on_click = "cloudsql_toggle prod"
+interval = 2
 
 [[block]]
 block = "plugin"
 command = "current_env"
+on_click = "k8s_toggle"
 interval = 1
 
 [[block]]

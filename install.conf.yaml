@@ -19,10 +19,13 @@
     ~/.local/bin/i3exit: i3/i3exit
     ~/.local/bin/current_env: k8s/current_env.sh
     ~/.k8s_functions.sh: k8s/functions.sh
+    ~/.local/bin/k8s_toggle: k8s/toggle.sh
     ~/.config/gsimplecal/config: calendar
     ~/.config/dunst/dunstrc: dunstrc
     ~/.fw.sh: fw/fw.sh
     ~/.config/systemd/user/cloudsql-dev.service: cloudsql/dev.service
     ~/.config/systemd/user/cloudsql-prod.service: cloudsql/prod.service
-    ~/.local/bin/cloudsql_status: cloudsql/status.sh
+    ~/.local/bin/cloudsql_status_dev: cloudsql/status-dev.sh
+    ~/.local/bin/cloudsql_status_prod: cloudsql/status-prod.sh
+    ~/.local/bin/cloudsql_toggle: cloudsql/toggle.sh
     
