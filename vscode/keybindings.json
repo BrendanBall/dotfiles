@@ -19,5 +19,9 @@
     {
         "key": "ctrl+shift+l",
         "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+unknown",
+        "command": "editor.action.transformToUppercase"
     }
 ]

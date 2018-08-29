@@ -118,6 +118,10 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
+# scratchpad
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
 # move workspace to different output
 bindsym $mod+Control+Left move workspace to output left
 bindsym $mod+Control+Right move workspace to output right
@@ -217,5 +221,3 @@ bar {
             focused_workspace  #132d66 #132d66 #ffffff
     }
 }
-
-exec --no-startup-id wicd-client --tray

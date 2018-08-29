@@ -21,4 +21,5 @@
     ~/.k8s_functions.sh: k8s/functions.sh
     ~/.config/gsimplecal/config: calendar
     ~/.config/dunst/dunstrc: dunstrc
+    ~/.fw.sh: fw/fw.sh
     
