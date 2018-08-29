@@ -22,4 +22,6 @@
     ~/.config/gsimplecal/config: calendar
     ~/.config/dunst/dunstrc: dunstrc
     ~/.fw.sh: fw/fw.sh
+    ~/.config/systemd/user/cloudsql-dev.service: cloudsql/dev.service
+    ~/.config/systemd/user/cloudsql-prod.service: cloudsql/prod.service
     
