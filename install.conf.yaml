@@ -24,4 +24,5 @@
     ~/.fw.sh: fw/fw.sh
     ~/.config/systemd/user/cloudsql-dev.service: cloudsql/dev.service
     ~/.config/systemd/user/cloudsql-prod.service: cloudsql/prod.service
+    ~/.local/bin/cloudsql_status: cloudsql/status.sh
     

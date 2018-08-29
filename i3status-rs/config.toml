@@ -9,6 +9,11 @@ name = "awesome"
 
 [[block]]
 block = "plugin"
+command = "cloudsql_status"
+interval = 5
+
+[[block]]
+block = "plugin"
 command = "current_env"
 interval = 1
 
