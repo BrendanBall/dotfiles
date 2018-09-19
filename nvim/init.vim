@@ -1,8 +1,15 @@
+
+let g:python3_host_prog="/home/brendan/dev/arch-venvs/neovim/bin/python3"
+let g:python_host_prog="/home/brendan/dev/arch-venvs/neovimpy2/bin/python"
 call plug#begin('~/.local/share/nvim/plugged')
 
 "RLS"
 
-Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'make release',
+    \ }
+
 
 " (Optional) Multi-entry selection UI.
 Plug 'junegunn/fzf'
@@ -10,7 +17,7 @@ Plug 'junegunn/fzf'
 " (Optional) Completion integration with deoplete.
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " (Optional) Completion integration with nvim-completion-manager.
-Plug 'roxma/nvim-completion-manager'
+" Plug 'roxma/nvim-completion-manager'
 
 " (Optional) Showing function signature and inline doc.
 Plug 'Shougo/echodoc.vim'
@@ -30,7 +37,6 @@ call plug#end()
 
 set mouse=a
 
-let g:python3_host_prog="/home/brendan/dev/arch-venvs/neovim/bin/python3"
 
 " Language Server settings
 set hidden
