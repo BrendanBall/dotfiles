@@ -28,4 +28,5 @@
     ~/.local/bin/cloudsql_status_dev: cloudsql/status-dev.sh
     ~/.local/bin/cloudsql_status_prod: cloudsql/status-prod.sh
     ~/.local/bin/cloudsql_toggle: cloudsql/toggle.sh
+    ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
     
