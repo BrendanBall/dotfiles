@@ -16,6 +16,7 @@ alias dc=docker-compose
 # alias vim=nvim
 alias moza=$HOME/go/src/bitbucket.org/nomanini/mz-moza
 alias y=yarn
+alias clip='xsel --clipboard --input'
 
 # PATH
 PATH=$PATH:$HOME/.local/bin
