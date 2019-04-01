@@ -19,6 +19,7 @@ alias y=yarn
 
 # PATH
 PATH=$PATH:$HOME/.local/bin
+PATH=$PATH:/usr/local/kubebuilder/bin
 PATH=$PATH:$HOME/go/bin
 PATH=$PATH:$HOME/.yarn/bin
 PATH=$PATH:/opt/android-sdk/tools/bin
