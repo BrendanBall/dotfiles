@@ -39,4 +39,6 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
+    "editor.renderWhitespace": "none",
+    "go.useLanguageServer": true,
 }

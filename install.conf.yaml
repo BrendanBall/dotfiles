@@ -13,8 +13,8 @@
     ~/.config/i3/config: i3/config
     ~/.config/i3status-rs/config.toml: i3status-rs/config.toml
     ~/.gitconfig: git/gitconfig
-    ~/.config/Code/User/keybindings.json: vscode/keybindings.json
-    ~/.config/Code/User/settings.json: vscode/settings.json
+    ~/.config/Code - OSS/User/keybindings.json: vscode/keybindings.json
+    ~/.config/Code - OSS/User/settings.json: vscode/settings.json
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.local/bin/i3exit: i3/i3exit
     ~/.local/bin/current_env: k8s/current_env.sh
@@ -29,4 +29,5 @@
     ~/.local/bin/cloudsql_status_prod: cloudsql/status-prod.sh
     ~/.local/bin/cloudsql_toggle: cloudsql/toggle.sh
     ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
+    ~/.config/sway/config: sway/config
     

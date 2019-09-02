@@ -2,7 +2,7 @@
 Description=CloudSql proxy for dev
 
 [Service]
-ExecStart=cloud_sql_proxy -instances=nomanini-dashboard:us-central1:nomanini-dev -dir /home/brendan/.cloudsql
+ExecStart=/home/brendan/.local/bin/cloud_sql_proxy -instances=nomanini-dashboard:us-central1:nomanini-dev -dir /home/brendan/.cloudsql
 
 [Install]
 WantedBy=default.target

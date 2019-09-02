@@ -3,7 +3,7 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git mercurial virtualenvwrapper kubectl wd)
+plugins=(git mercurial kubectl wd)
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
