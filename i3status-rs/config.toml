@@ -43,8 +43,8 @@ device = "wlp2s0"
 ssid = true
 ip = true
 speed_up = false
-speed_down = false
-graph_down = false
+speed_down = true
+graph_down = true
 bitrate = true
 interval = 5
 
@@ -77,4 +77,3 @@ show = "percentage"
 block = "time"
 interval = 5
 format = "%a %d/%m %r"
-on_click = "gsimplecal"

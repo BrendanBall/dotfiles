@@ -18,7 +18,12 @@
         "promptForTags": false,
         "transform": "snakecase"
       },
-    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
     "python.disablePromptForFeatures": [
         "pylint"
     ],
@@ -41,4 +46,15 @@
     "python.jediEnabled": false,
     "editor.renderWhitespace": "none",
     "go.useLanguageServer": true,
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "gitlens.views.repositories.files.layout": "tree",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "python.languageServer": "Microsoft"
 }
