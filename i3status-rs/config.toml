@@ -8,22 +8,25 @@ idle_fg = "#878a8e"
 name = "awesome"
 
 [[block]]
-block = "plugin"
+block = "custom"
 command = "cloudsql_status_dev"
 on_click = "cloudsql_toggle dev"
 interval = 2
+json = true
 
 [[block]]
-block = "plugin"
+block = "custom"
 command = "cloudsql_status_prod"
 on_click = "cloudsql_toggle prod"
 interval = 2
+json = true
 
 [[block]]
-block = "plugin"
+block = "custom"
 command = "current_env"
 on_click = "k8s_toggle"
 interval = 1
+json = true
 
 [[block]]
 block = "memory"
@@ -41,11 +44,11 @@ critical_swap = 95
 block = "net"
 device = "wlp2s0"
 ssid = true
-ip = true
+#ip = true
 speed_up = false
-speed_down = true
-graph_down = true
-bitrate = true
+speed_down = false
+#graph_down = true
+#bitrate = true
 interval = 5
 
 [[block]]

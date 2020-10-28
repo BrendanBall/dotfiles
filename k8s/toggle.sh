@@ -1,10 +1,10 @@
 #!/bin/bash
 
 CONTEXT=$(kubectl config current-context)
-if [ "$CONTEXT" == "gke_nomanini-dashboard_us-central1-a_dev" ]
+if [ "$CONTEXT" == "dev" ]
 then
-   kubectl config use-context gke_nomanini-dashboard_us-central1-a_prod
-elif [ "$CONTEXT" == "gke_nomanini-dashboard_us-central1-a_prod" ]
+   kubectl config use-context prod
+elif [ "$CONTEXT" == "prod" ]
 then
-    kubectl config use-context gke_nomanini-dashboard_us-central1-a_dev
+    kubectl config use-context dev
 fi
