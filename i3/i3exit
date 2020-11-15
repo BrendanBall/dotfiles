@@ -1,6 +1,11 @@
 #!/bin/sh
 lock() {
-    i3lock -t -c 000000
+    if [[ -v WAYLAND_DISPLAY ]]
+    then 
+        swaylock -t -c 000000
+    else
+        i3lock -t -c 000000
+    fi
 }
 
 case "$1" in
