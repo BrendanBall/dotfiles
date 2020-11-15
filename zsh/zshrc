@@ -1,17 +1,19 @@
-ZSH=/usr/share/oh-my-zsh/
-ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
-ZSH_THEME="robbyrussell"
-COMPLETION_WAITING_DOTS="true"
+# ZSH=/usr/share/oh-my-zsh/
+# ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
+# ZSH_THEME="robbyrussell"
+# COMPLETION_WAITING_DOTS="true"
 
 plugins=(git mercurial kubectl wd)
 
-ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
-if [[ ! -d $ZSH_CACHE_DIR ]]; then
-  mkdir $ZSH_CACHE_DIR
-fi
+# ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+# if [[ ! -d $ZSH_CACHE_DIR ]]; then
+#   mkdir $ZSH_CACHE_DIR
+# fi
 
 zstyle ':completion:*' rehash true
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZSH/oh-my-zsh.sh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source $ZSH/oh-my-zsh.sh
 source ~/.zprofile
+
+eval "$(starship init zsh)"
