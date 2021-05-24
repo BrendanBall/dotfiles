@@ -8,31 +8,9 @@ idle_fg = "#878a8e"
 name = "awesome"
 
 [[block]]
-block = "custom"
-command = "cloudsql_status_dev"
-on_click = "cloudsql_toggle dev"
-interval = 2
-json = true
-
-[[block]]
-block = "custom"
-command = "cloudsql_status_prod"
-on_click = "cloudsql_toggle prod"
-interval = 2
-json = true
-
-[[block]]
-block = "custom"
-command = "current_env"
-on_click = "k8s_toggle"
-interval = 1
-json = true
-
-[[block]]
 block = "memory"
 display_type = "memory"
-format_mem = "{Mug}GiB/{Mup}%"
-format_swap = "{SUg}GiB/{SUp}%"
+format_mem = "{mem_used}/{mem_total}({mem_used_percents})"
 icons = true
 clickable = true
 warning_mem = 80
@@ -43,12 +21,7 @@ critical_swap = 95
 [[block]]
 block = "net"
 device = "wlp2s0"
-ssid = true
-#ip = true
-speed_up = false
-speed_down = false
-#graph_down = true
-#bitrate = true
+format = "{signal_strength} {ssid}"
 interval = 5
 
 [[block]]
@@ -71,6 +44,10 @@ block = "backlight"
 device = "intel_backlight"
 
 [[block]]
+block = "bluetooth"
+mac = "64:03:7F:9B:B1:C8"
+
+[[block]]
 block = "sound"
 step_width = 3
 
@@ -78,7 +55,7 @@ step_width = 3
 block = "battery"
 interval = 10
 device = "BAT0"
-show = "percentage"
+format = "{percentage}"
 
 [[block]]
 block = "time"
