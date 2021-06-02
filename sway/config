@@ -183,7 +183,7 @@ mode "$mode_system" {
 bindsym $mod+Delete mode "$mode_system"
 
 output HDMI-A-1 pos 0 0 res 1920x1080
-output eDP-1 pos 1920 0 res 2560x1440 scale 1.5
+output eDP-1 pos 1920 0 res 1920x1080
 
 ## Manual management of external displays
 # Set the shortcuts and what they do
