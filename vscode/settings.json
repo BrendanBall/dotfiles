@@ -3,7 +3,11 @@
     "workbench.startupEditor": "newUntitledFile",
     "window.menuBarVisibility": "toggle",
     "files.exclude": {
-        "./vendor": true
+        "./vendor": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
     "files.watcherExclude": {
         "./vendor": true
@@ -17,7 +21,7 @@
         "options": "",
         "promptForTags": false,
         "transform": "snakecase"
-      },
+    },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -47,7 +51,10 @@
     "editor.renderWhitespace": "none",
     "go.useLanguageServer": true,
     "[typescript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
     },
     "gitlens.views.repositories.files.layout": "tree",
     "editor.codeActionsOnSave": {
@@ -64,6 +71,36 @@
     "plantuml.render": "PlantUMLServer",
     "plantuml.server": "http://localhost:8686",
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.formatOnSave": true,
-    "rust-analyzer.procMacro.enable": true
+    "rust-analyzer.procMacro.enable": true,
+    "[yaml]": {
+        "editor.formatOnSave": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false,
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "openapi.defaultPreviewRenderer": "redoc",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }
