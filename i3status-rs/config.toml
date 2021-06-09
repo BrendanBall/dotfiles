@@ -8,6 +8,11 @@ idle_fg = "#878a8e"
 name = "awesome5"
 
 [[block]]
+block = "music"
+player = "spotify"
+buttons = ["play", "next"]
+
+[[block]]
 block = "memory"
 display_type = "memory"
 format_mem = "{mem_used}/{mem_total}({mem_used_percents})"
