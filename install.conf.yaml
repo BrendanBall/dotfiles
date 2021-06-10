@@ -35,3 +35,4 @@
     ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
     ~/.config/sway/config: sway/config
     ~/.config/starship.toml: starship/starship.toml
+    ~/.config/systemd/user/ssh-agent.service: ssh-agent/ssh-agent.service

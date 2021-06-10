@@ -4,6 +4,7 @@ export WORKON_HOME=~/dev/arch-venvs
 
 export VISUAL=/usr/bin/nvim
 export EDITOR=/usr/bin/nvim
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 source $HOME/.k8s_functions.sh
 source $HOME/.fw.sh
