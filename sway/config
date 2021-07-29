@@ -188,7 +188,7 @@ mode "$mode_system" {
 }
 bindsym $mod+Delete mode "$mode_system"
 
-output HDMI-A-1 pos 0 0 res 1920x1080
+output HDMI-A-1 pos 0 0 mode 1920x1080@120.000Hz
 output eDP-1 pos 1920 0 res 2560x1440 scale 1.5
 
 ## Manual management of external displays
@@ -217,6 +217,13 @@ mode "$mode_sound" {
 }
 bindsym $mod+s mode "$mode_sound"
 
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
@@ -230,4 +237,8 @@ bar {
 
 input type:tablet_tool {
     map_to_output HDMI-A-1
+}
+
+input "1118:2048:Microsoft_Microsoft___Nano_Transceiver_v2.0_Mouse" {
+    natural_scroll enabled
 }
