@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "window.menuBarVisibility": "toggle",
     "files.exclude": {
@@ -39,7 +38,6 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.historyExplorer.enabled": true,
-    "gitlens.codeLens.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.currentLine.enabled": false,
     "diffEditor.renderSideBySide": false,
@@ -97,10 +95,9 @@
         "editor.formatOnSave": false
     },
     "openapi.defaultPreviewRenderer": "redoc",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ]
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "gitlens.codeLens.enabled": false,
+    "redhat.telemetry.enabled": false
 }

@@ -2,8 +2,8 @@
 export WORKON_HOME=~/dev/arch-venvs
 # source /usr/bin/virtualenvwrapper_lazy.sh
 
-export VISUAL=/usr/bin/nvim
-export EDITOR=/usr/bin/nvim
+export VISUAL=/usr/bin/vim
+export EDITOR=/usr/bin/vim
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 source $HOME/.k8s_functions.sh
@@ -25,4 +25,5 @@ PATH=$PATH:$HOME/.yarn/bin
 PATH=$PATH:$HOME/.cargo/bin
 PATH=$PATH:/opt/google-cloud-sdk/bin
 PATH=$PATH:${KREW_ROOT:-$HOME/.krew}/bin
+PATH=$PATH::$HOME/.local/share/apache-pulsar/apache-pulsar-2.8.0/bin
 
