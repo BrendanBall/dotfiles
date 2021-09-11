@@ -242,3 +242,5 @@ input type:tablet_tool {
 input "1118:2048:Microsoft_Microsoft___Nano_Transceiver_v2.0_Mouse" {
     natural_scroll enabled
 }
+
+input "1539:4104:SINO_WEALTH_2.4G___________________________________________Mouse" events disabled
