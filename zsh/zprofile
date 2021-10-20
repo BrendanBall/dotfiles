@@ -16,6 +16,7 @@ alias dc=docker-compose
 # alias vim=nvim
 alias y=yarn
 alias clip='xsel --clipboard --input'
+alias get_idf='. /opt/esp-idf/export.sh'
 
 # PATH
 PATH=$PATH:$HOME/.local/bin
