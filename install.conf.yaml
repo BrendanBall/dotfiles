@@ -33,3 +33,4 @@
     ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
     ~/.config/sway/config: sway/config
     ~/.config/starship.toml: starship/starship.toml
+    ~/.config/gammastep/config.ini: gammastep/config.ini
