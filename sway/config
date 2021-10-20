@@ -235,3 +235,5 @@ input type:tablet_tool {
 seat * hide_cursor 5000
 
 input "1539:4104:SINO_WEALTH_2.4G___________________________________________Mouse" events disabled
+
+include /etc/sway/config.d/*

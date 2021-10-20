@@ -5,6 +5,7 @@ export WORKON_HOME=~/dev/arch-venvs
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 source $HOME/.k8s_functions.sh
 source $HOME/.fw.sh
