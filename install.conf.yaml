@@ -37,3 +37,4 @@
     ~/.config/starship.toml: starship/starship.toml
     ~/.config/systemd/user/ssh-agent.service: ssh-agent/ssh-agent.service
     ~/.config/gammastep/config.ini: gammastep/config.ini
+    ~/.config/tmux/tmux.conf: tmux/tmux.conf

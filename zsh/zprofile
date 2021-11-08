@@ -28,3 +28,7 @@ PATH=$PATH:/opt/google-cloud-sdk/bin
 PATH=$PATH:${KREW_ROOT:-$HOME/.krew}/bin
 PATH=$PATH::$HOME/.local/share/apache-pulsar/apache-pulsar-2.8.0/bin
 
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+# source /usr/share/skim/key-bindings.zsh
+# source /usr/share/skim/completion.zsh

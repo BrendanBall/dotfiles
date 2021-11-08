@@ -13,6 +13,13 @@ player = "spotify"
 buttons = ["play", "next"]
 
 [[block]]
+block = "custom"
+command = "current_env"
+interval = 1
+# watch_files = ["~/.kube/config"]
+json = true
+
+[[block]]
 block = "memory"
 display_type = "memory"
 format_mem = "{mem_used}/{mem_total}({mem_used_percents})"
