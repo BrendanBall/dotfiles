@@ -15,8 +15,8 @@ buttons = ["play", "next"]
 [[block]]
 block = "custom"
 command = "current_env"
-interval = 1
-# watch_files = ["~/.kube/config"]
+interval = "once"
+watch_files = ["~/.kube/config"]
 json = true
 
 [[block]]
