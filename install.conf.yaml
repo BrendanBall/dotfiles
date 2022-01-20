@@ -39,3 +39,5 @@
     ~/.config/gammastep/config.ini: gammastep/config.ini
     ~/.config/tmux/tmux.conf: tmux/tmux.conf
     ~/.config/kitty/kitty.conf: kitty/kitty.conf
+    ~/.config/electron-flags.conf: electron-flags.conf
+    ~/.config/fontconfig/fonts.conf: fontconfig/fonts.conf

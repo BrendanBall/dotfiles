@@ -1,9 +1,10 @@
 ### config file for openfortivpn, see man openfortivpn(1) ###
-
-host = vpn.withinreach.nl
+#host = vpn.withinreach.nl
+host = vpn.enreach.com
 port = 10443
 username = brendan.ball@enreach.com
 password = <password>
 trusted-cert = ee02eeb832c679c4f98c75708fa97647eb42e89e6b56cb5dc38eec883db4b2cc
+trusted-cert = f19fa7367b43bc9ed26d311f5293e56b3d0e96eb70a4fd3424f610bb92b63a33
 use-resolvconf = 1
 set-routes = 1

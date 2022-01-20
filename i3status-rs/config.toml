@@ -32,7 +32,7 @@ critical_swap = 95
 
 [[block]]
 block = "net"
-device = "wlp5s0"
+device = "wlan0"
 format = "{signal_strength} {ssid}"
 interval = 5
 
