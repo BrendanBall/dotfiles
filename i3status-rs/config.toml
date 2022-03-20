@@ -7,6 +7,11 @@ idle_fg = "#878a8e"
 [icons]
 name = "awesome"
 
+# [[block]]
+# block = "custom"
+# command = "cat ~/test_i3status"
+# watch_files = ["/home/brendan/test_i3status"]
+
 [[block]]
 block = "memory"
 display_type = "memory"

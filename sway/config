@@ -188,8 +188,11 @@ mode "$mode_system" {
 }
 bindsym $mod+Delete mode "$mode_system"
 
-output HDMI-A-1 pos 0 0 mode 1920x1080@120.000Hz
+output 'Dell Inc. DELL S2421HGF 41KT973' pos 0 0 mode 1920x1080@120.000Hz
+# output HDMI-A-1 pos 0 0 mode 1920x1080@120.000Hz
 output eDP-1 pos 1920 0 res 2560x1440 scale 1.5
+
+# output 'Goldstar Company Ltd LG TV SSCR2 0x00000101' pos 1920 0 res 3840x2160 scale 2
 
 ## Manual management of external displays
 # Set the shortcuts and what they do
@@ -229,6 +232,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 bar {
         font pango:DejaVu Sans Mono, FontAwesome 11
         status_command i3status-rs $HOME/.config/i3status-rs/config.toml
+        # status_command /home/brendan/dev/projects/i3status-rust/target/debug/i3status-rs $HOME/.config/i3status-rs/config.toml
         colors {
         	background #000000
             focused_workspace  #132d66 #132d66 #ffffff

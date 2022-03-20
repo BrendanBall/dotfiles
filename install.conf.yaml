@@ -34,3 +34,4 @@
     ~/.config/sway/config: sway/config
     ~/.config/starship.toml: starship/starship.toml
     ~/.config/gammastep/config.ini: gammastep/config.ini
+    ~/.config/espflash/espflash.toml: espflash/espflash.toml
