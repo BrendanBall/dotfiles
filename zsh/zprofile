@@ -25,4 +25,7 @@ PATH=$PATH:$HOME/.yarn/bin
 PATH=$PATH:$HOME/.cargo/bin
 PATH=$PATH:/opt/google-cloud-sdk/bin
 PATH=$PATH:${KREW_ROOT:-$HOME/.krew}/bin
+PATH=$PATH:$HOME/.nix-profile/bin
 
+export NIX_PATH=$HOME/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/channels${NIX_PATH:+:$NIX_PATH}
+source $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh

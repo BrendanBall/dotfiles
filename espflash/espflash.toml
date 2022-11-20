@@ -1,2 +1,6 @@
 [connection]
 serial = "/dev/ttyUSB0"
+
+[[usb_device]]
+vid = "303A"
+pid = "8000"

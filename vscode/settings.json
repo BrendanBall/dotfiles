@@ -76,7 +76,7 @@
         "editor.formatOnSave": false,
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
-        "editor.autoIndent": false,
+        "editor.autoIndent": "advanced",
         "gitlens.codeLens.scopes": [
             "document"
         ],
@@ -100,5 +100,9 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
-    "idf.adapterTargetName": "esp32c3"
+    "idf.adapterTargetName": "esp32c3",
+    "rust-analyzer.checkOnSave.allTargets": false,
+    "rust-analyzer.diagnostics.disabled": [
+        "inactive-code"
+    ]
 }
