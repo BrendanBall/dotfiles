@@ -1,0 +1,18 @@
+## Base16 blue
+
+set $base00 #000000
+set $base01 #3d4048
+set $base02 #53555d
+set $base03 #5d6067
+set $base04 #141721
+set $base05 #939599
+set $base06 #a9aaae
+set $base07 #bebfc2
+set $base08 #B50405
+set $base09 #786dc5
+set $base0A #438288
+set $base0B #df0002
+set $base0C #00a0be
+set $base0D #132d66
+set $base0E #b21889
+set $base0F #802e93
