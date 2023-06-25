@@ -1,11 +1,13 @@
+icons_format = "{icon}"
+
 [theme]
-name = "solarized-dark"
+theme = "solarized-dark"
 [theme.overrides]
 idle_bg = "#000000"
 idle_fg = "#878a8e"
 
 [icons]
-name = "awesome"
+icons = "awesome6"
 
 # [[block]]
 # block = "custom"
@@ -14,10 +16,7 @@ name = "awesome"
 
 [[block]]
 block = "memory"
-display_type = "memory"
-format_mem = "{mem_used}/{mem_total}({mem_used_percents})"
-icons = true
-clickable = true
+format = " $icon $mem_avail.eng(prefix:M)/$mem_total.eng(prefix:M)($mem_total_used_percents.eng(w:2)) "
 warning_mem = 80
 warning_swap = 80
 critical_mem = 95
@@ -26,14 +25,12 @@ critical_swap = 95
 [[block]]
 block = "net"
 device = "wlp2s0"
-format = "{signal_strength} {ssid}"
+format = " $icon $signal_strength ^icon_net_down $speed_down.eng(prefix:K) ^icon_net_up $speed_up.eng(prefix:K) "
 interval = 5
 
 [[block]]
 block = "temperature"
-collapsed = true
 interval = 10
-format = "{min}° min, {max}° max, {average}° avg"
 
 [[block]]
 block = "cpu"
@@ -42,19 +39,19 @@ interval = 1
 [[block]]
 block = "load"
 interval = 1
-format = "{1m}"
+format = " $icon $1m.eng(w:4) "
 
 [[block]]
 block = "backlight"
 device = "intel_backlight"
 
-[[block]]
-block = "bluetooth"
-mac = "64:03:7F:9B:B1:C8"
+# [[block]]
+# block = "bluetooth"
+# mac = "64:03:7F:9B:B1:C8"
 
 [[block]]
 block = "sound"
-format = "{output_description} {volume}"
+format = " $icon $output_description{ $volume|} "
 step_width = 3
 headphones_indicator = true
 [block.mappings]
@@ -68,9 +65,9 @@ block = "battery"
 full_threshold = 80
 driver = "upower"
 device = "DisplayDevice"
-full_format = "{percentage} {time} {power}"
+format = " $icon $percentage {$time |} $power "
 
 [[block]]
 block = "time"
 interval = 5
-format = "%a %d/%m %r"
+format = " $icon $timestamp.datetime(f:'%a %m/%d %R') "

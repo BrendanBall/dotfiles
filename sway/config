@@ -174,11 +174,13 @@ bindsym $mod+r mode "resize"
 #i3lock, suspend, shutdown. Custom system mode
 
 exec swayidle -w \
-	before-sleep 'swaylock -f -c 000000'
+	before-sleep 'swaylock -f -c 000000' \
+    # timeout 600 'swaymsg "output * power off"' \
+	resume 'swaymsg "output * power on"'
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym l exec --no-startup-id swaylock -t -c 000000, mode "default"
     bindsym e exec --no-startup-id i3exit logout, mode "default"
     bindsym s exec --no-startup-id i3exit suspend, mode "default"
     bindsym h exec --no-startup-id i3exit hibernate, mode "default"

@@ -104,5 +104,10 @@
     "rust-analyzer.checkOnSave.allTargets": false,
     "rust-analyzer.diagnostics.disabled": [
         "inactive-code"
-    ]
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "notebook.lineNumbers": "on",
+    "notebook.output.textLineLimit": 1000
 }
