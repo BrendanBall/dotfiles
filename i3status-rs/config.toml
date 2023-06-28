@@ -24,7 +24,7 @@ critical_swap = 95
 
 [[block]]
 block = "net"
-device = "wlp2s0"
+device = "wlan0"
 format = " $icon $signal_strength ^icon_net_down $speed_down.eng(prefix:K) ^icon_net_up $speed_up.eng(prefix:K) "
 interval = 5
 

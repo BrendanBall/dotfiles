@@ -1,5 +1,5 @@
 HISTFILE=~/.histfile
-HISTSIZE=2000
+HISTSIZE=10000
 SAVEHIST=10000
 setopt nomatch
 unsetopt autocd beep extendedglob notify
@@ -76,6 +76,7 @@ export EDITOR=/usr/bin/vim
 # aliases
 alias k=kubectl
 alias dc=docker-compose
+alias code="codium --enable-features=UseOzonePlatform --ozone-platform=wayland"
 
 # PATH
 PATH=$PATH:$HOME/.local/bin
