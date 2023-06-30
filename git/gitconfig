@@ -23,3 +23,5 @@
 	insteadOf = https://gitlab.com/nomanini/jsonvalidation.git
 [pull]
 	rebase = true
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
