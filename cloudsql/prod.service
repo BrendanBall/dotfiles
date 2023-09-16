@@ -1,8 +1,0 @@
-[Unit]
-Description=CloudSql proxy for prod
-
-[Service]
-ExecStart=/home/brendan/.local/bin/cloud_sql_proxy -instances=nomanini-dashboard:us-central1:nomanini -dir /home/brendan/.cloudsql
-
-[Install]
-WantedBy=default.target

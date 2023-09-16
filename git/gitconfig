@@ -5,22 +5,12 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev=8
 	graph = log --all --decorate --oneline --graph
 [user]
-	email = brendan@nomanini.com
+	email = ball.brendan50@gmail.com
 	name = Brendan Ball
 [push]
 	default = simple
 [http "https://gopkg.in"]
 	followRedirects = true
-[url "git@bitbucket.org:"]
-	insteadOf = https://bitbucket.org/
-[url "https://gitlab+deploy-token-7:xeKDfspK-AdY66zqzdun@gitlab.nomanini.com/nomanini/goutil.git"]
-	insteadOf = https://gitlab.nomanini.com/nomanini/goutil.git
-[url "https://gitlab+deploy-token-8:BqHdFT3c-C46u74SAzEE@gitlab.nomanini.com/nomanini/jsonvalidation.git"]
-	insteadOf = https://gitlab.nomanini.com/nomanini/jsonvalidation.git
-[url "https://gitlab+deploy-token-77890:-HCWxHATQFf-htK44jZs@gitlab.com/nomanini/goutil.git"]
-	insteadOf = https://gitlab.com/nomanini/goutil.git
-[url "https://gitlab+deploy-token-77891:fRuqj4A33Fzii6U1Hj3n@gitlab.com/nomanini/jsonvalidation.git"]
-	insteadOf = https://gitlab.com/nomanini/jsonvalidation.git
 [pull]
 	rebase = true
 [credential]
